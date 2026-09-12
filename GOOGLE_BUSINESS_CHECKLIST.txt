@@ -1,0 +1,52 @@
+================================================================================
+MANUAL TASK: GOOGLE BUSINESS OPTIMIZATION — Harbourview Realty
+================================================================================
+
+Complete the following steps to maximize local search visibility for
+Sarah Mitchell — Harbourview Realty. Each step is manual but essential.
+
+1.  CLAIM & VERIFY YOUR GOOGLE BUSINESS PROFILE
+    Go to google.com/business, search for "Harbourview Realty" or create a
+    new profile. Verify ownership via postcard (Google will mail one to
+    88 Harbour St, Toronto, ON). This is the single most important step.
+
+2.  COMPLETE EVERY PROFILE FIELD
+    Fill in: business name exactly as "Harbourview Realty", category
+    "Real Estate Agent", service areas (Harbourfront, Liberty Village,
+    The Beaches, Downtown Toronto), phone (416) 555-0155, website URL,
+    hours of operation, and a 750-character "From the Business" description
+    that matches the site's confident, warm-professional tone.
+
+3.  UPLOAD HIGH-QUALITY PHOTOS (MINIMUM 20)
+    Professional headshot of Sarah Mitchell, office exterior at 88 Harbour
+    St, office interior, team photos, and at least 5–7 exterior/interior
+    shots of recent listings. Add geo-tagged photos when possible.
+
+4.  ADD THE GOOGLE MAPS EMBED TO THE CONTACT PAGE
+    Replace the placeholder iframe in contact.html with a real Google Maps
+    embed pointing to 88 Harbour St, Toronto, ON. Use the "Share > Embed"
+    option from Google Maps for the correct URL.
+
+5.  COLLECT & RESPOND TO GOOGLE REVIEWS
+    Send the direct Google review link to past clients (Mike & Dana L.,
+    Raj P., Elena V., plus any recent clients). Aim for 15+ reviews.
+    Respond to every review within 48 hours — this signals engagement.
+
+6.  ENABLE GOOGLE BUSINESS MESSAGING
+    Turn on the messaging feature so prospects can text or chat directly
+    from the Google Business listing. Set up an auto-reply acknowledging
+    inquiries and promising a response within 2–4 business hours.
+
+7.  POST WEEKLY UPDATES / OFFERS
+    Use Google Posts to share: new listings, just-sold announcements, open
+    house dates, market updates, and client success stories. Post at least
+    once per week. Include a clear call-to-action (e.g., "Book a free
+    market valuation").
+
+8.  ADD Q&A CONTENT PROACTIVELY
+    Seed 5–7 "Questions & Answers" on the profile covering common buyer/
+    seller questions (e.g., "How long does it take to close in Toronto?",
+    "What are current Harbourfront condo fees like?"). Answer them as the
+    business owner for maximum credibility.
+
+================================================================================

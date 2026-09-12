@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://harbourviewrealty.ca/sitemap.xml
+Crawl-delay: 5

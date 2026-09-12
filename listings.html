@@ -1,0 +1,1412 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Featured Toronto waterfront listings from Harbourview Realty. Browse condos, townhomes, and detached homes in Harbourfront, Liberty Village, and The Beaches."
+    />
+    <meta
+      property="og:title"
+      content="Featured Listings — Harbourview Realty | Toronto Waterfront Properties"
+    />
+    <meta
+      property="og:description"
+      content="Curated waterfront properties for sale in Toronto. Browse Harbourfront condos, Liberty Village townhomes, and Beaches family homes."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://harbourviewrealty.ca/listings.html"
+    />
+    <meta
+      property="og:image"
+      content="https://harbourviewrealty.ca/PLACEHOLDER-og-image.jpg"
+    />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:site_name" content="Harbourview Realty" />
+    <title>
+      Featured Listings — Harbourview Realty | Toronto Waterfront Properties
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Harbourview  Realty" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: "#1B2A4A",
+              gold: "#C8A951",
+              "gold-dark": "#A88D3D",
+              "gold-light": "#E8D9A0",
+              charcoal: "#333333",
+              "off-white": "#FAFAFA",
+            },
+            fontFamily: {
+              display: ['"Playfair Display"', "Georgia", "serif"],
+              body: ["Inter", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Inter", system-ui, sans-serif;
+        color: #333;
+        background: #fafafa;
+      }
+      h1,
+      h2,
+      h3,
+      .font-display {
+        font-family: "Playfair Display", Georgia, serif;
+      }
+      #mobile-menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease;
+      }
+      #mobile-menu.open {
+        max-height: 350px;
+      }
+      .btn-gold {
+        background: #c8a951;
+        color: #1b2a4a;
+        font-weight: 600;
+        transition:
+          background 0.2s,
+          transform 0.15s;
+      }
+      .btn-gold:hover {
+        background: #a88d3d;
+        transform: translateY(-1px);
+      }
+      .btn-navy {
+        background: #1b2a4a;
+        color: #fff;
+        font-weight: 600;
+        transition:
+          background 0.2s,
+          transform 0.15s;
+      }
+      .btn-navy:hover {
+        background: #2c3e66;
+        transform: translateY(-1px);
+      }
+      .btn-outline-gold {
+        border: 2px solid #c8a951;
+        color: #c8a951;
+        font-weight: 600;
+        transition:
+          background 0.2s,
+          color 0.2s;
+      }
+      .btn-outline-gold:hover {
+        background: #c8a951;
+        color: #1b2a4a;
+      }
+      .card-hover {
+        transition:
+          box-shadow 0.3s,
+          transform 0.2s;
+      }
+      .card-hover:hover {
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        transform: translateY(-4px);
+      }
+    </style>
+  </head>
+  <body class="font-body text-charcoal bg-off-white">
+    <!-- SECTION: Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <a href="index.html" class="flex items-center gap-3 no-underline">
+            <div
+              class="w-10 h-10 bg-navy rounded-full flex items-center justify-center text-gold font-display text-xl font-bold"
+            >
+              H
+            </div>
+            <div class="hidden sm:block">
+              <p class="font-display text-navy text-xl font-bold leading-6 m-0">
+                Harbourview
+              </p>
+              <p class="text-xs text-gray-500 tracking-widest uppercase m-0">
+                Realty
+              </p>
+            </div>
+          </a>
+          <nav
+            class="hidden md:flex items-center gap-8 text-sm font-medium"
+            aria-label="Main navigation"
+          >
+            <a
+              href="index.html"
+              class="text-charcoal hover:text-navy transition-colors"
+              >Home</a
+            >
+            <a
+              href="about.html"
+              class="text-charcoal hover:text-navy transition-colors"
+              >About</a
+            >
+            <a
+              href="listings.html"
+              class="text-navy border-b-2 border-gold pb-1"
+              >Listings</a
+            >
+            <a
+              href="reviews.html"
+              class="text-charcoal hover:text-navy transition-colors"
+              >Reviews</a
+            >
+            <a href="contact.html" class="btn-gold px-5 py-2.5 rounded text-sm"
+              >Contact</a
+            >
+          </nav>
+          <button
+            id="menu-toggle"
+            class="md:hidden flex flex-col gap-1.5 p-2"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="block w-6 h-0.5 bg-navy"></span>
+            <span class="block w-6 h-0.5 bg-navy"></span>
+            <span class="block w-6 h-0.5 bg-navy"></span>
+          </button>
+        </div>
+        <nav
+          id="mobile-menu"
+          class="md:hidden bg-white border-t border-gray-100"
+          aria-label="Mobile navigation"
+        >
+          <div class="flex flex-col py-4 px-2 gap-3 text-sm font-medium">
+            <a
+              href="index.html"
+              class="text-charcoal py-2 px-3 rounded hover:bg-gold-light/30"
+              >Home</a
+            >
+            <a
+              href="about.html"
+              class="text-charcoal py-2 px-3 rounded hover:bg-gold-light/30"
+              >About</a
+            >
+            <a
+              href="listings.html"
+              class="text-navy font-semibold py-2 px-3 rounded hover:bg-gold-light/30"
+              >Listings</a
+            >
+            <a
+              href="reviews.html"
+              class="text-charcoal py-2 px-3 rounded hover:bg-gold-light/30"
+              >Reviews</a
+            >
+            <a
+              href="contact.html"
+              class="btn-gold text-center py-2.5 rounded mt-1"
+              >Get in Touch</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- SECTION: Page Hero -->
+      <section class="relative bg-navy overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+          <img
+            src="collage.jpg"
+            alt="Collage-style background showing elegant Toronto waterfront homes including a modern condo, a brick townhouse, and a family detached house"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div
+          class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center"
+        >
+          <p
+            class="text-gold text-sm font-medium tracking-widest uppercase mb-4"
+          >
+            Featured Properties
+          </p>
+          <h1
+            class="text-4xl sm:text-5xl font-display font-bold text-white leading-tight text-balance mb-4"
+          >
+            Exceptional Waterfront Homes
+          </h1>
+          <p class="text-lg text-gray-200 max-w-2xl mx-auto text-balance">
+            A curated selection of properties in Toronto's most desirable
+            lakefront neighbourhoods. Each listing is hand-picked for quality,
+            location, and value.
+          </p>
+        </div>
+      </section>
+      <!-- SECTION: Listings Grid -->
+      <section class="py-16 sm:py-20 bg-off-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <article class="bg-white rounded-xl overflow-hidden card-hover">
+              <div class="relative">
+                <span
+                  class="absolute top-3 left-3 bg-navy text-gold text-xs font-semibold px-3 py-1 rounded-full"
+                  >Featured</span
+                >
+                <img
+                  src="app-lake.jpg"
+                  alt="Bright modern 3-bedroom corner condo with floor-to-ceiling windows overlooking Lake Ontario, open-concept living area with hardwood floors"
+                  class="w-full h-52 object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-5">
+                <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">
+                  Condominium
+                </p>
+                <h3 class="text-xl font-display font-bold text-navy mb-1">
+                  3-Bed Waterfront Condo
+                </h3>
+                <p class="text-sm text-gray-500 mb-3">
+                  88 Harbour St, Harbourfront — Toronto
+                </p>
+                <p class="text-2xl font-display font-bold text-navy mb-4">
+                  $899,000
+                </p>
+                <div class="flex gap-4 text-sm text-gray-500 mb-5">
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      /></svg
+                    >3 Beds</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="2" y="6" width="20" height="12" rx="2" />
+                      <circle cx="12" cy="12" r="2" /></svg
+                    >2 Baths</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" /></svg
+                    >1,250 sqft</span
+                  >
+                </div>
+                <a
+                  href="#listing-harbourfront"
+                  class="btn-outline-gold block text-center py-2.5 rounded text-sm"
+                  >View Full Details</a
+                >
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="bg-white rounded-xl overflow-hidden card-hover">
+              <div class="relative">
+                <span
+                  class="absolute top-3 left-3 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full"
+                  >Just Listed</span
+                >
+                <img
+                  src="2-bedroom-townhome.jpg"
+                  alt="Charming 2-bedroom modern townhouse in Liberty Village with red-brick exterior, private rooftop terrace, and sleek contemporary kitchen"
+                  class="w-full h-52 object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-5">
+                <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">
+                  Townhome
+                </p>
+                <h3 class="text-xl font-display font-bold text-navy mb-1">
+                  2-Bed Modern Townhome
+                </h3>
+                <p class="text-sm text-gray-500 mb-3">
+                  45 East Liberty St, Liberty Village — Toronto
+                </p>
+                <p class="text-2xl font-display font-bold text-navy mb-4">
+                  $749,000
+                </p>
+                <div class="flex gap-4 text-sm text-gray-500 mb-5">
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      /></svg
+                    >2 Beds</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="2" y="6" width="20" height="12" rx="2" />
+                      <circle cx="12" cy="12" r="2" /></svg
+                    >2 Baths</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" /></svg
+                    >1,050 sqft</span
+                  >
+                </div>
+                <a
+                  href="#listing-liberty-village"
+                  class="btn-outline-gold block text-center py-2.5 rounded text-sm"
+                  >View Full Details</a
+                >
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="bg-white rounded-xl overflow-hidden card-hover">
+              <div class="relative">
+                <span
+                  class="absolute top-3 left-3 bg-navy text-gold text-xs font-semibold px-3 py-1 rounded-full"
+                  >Exclusive</span
+                >
+                <img
+                  src="brick-house.jpg"
+                  alt="Stunning 4-bedroom detached home in The Beaches with wraparound porch, mature maple tree, and fully renovated chef's kitchen with marble island"
+                  class="w-full h-52 object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-5">
+                <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">
+                  Detached
+                </p>
+                <h3 class="text-xl font-display font-bold text-navy mb-1">
+                  4-Bed Family Home
+                </h3>
+                <p class="text-sm text-gray-500 mb-3">
+                  212 Wineva Ave, The Beaches — Toronto
+                </p>
+                <p class="text-2xl font-display font-bold text-navy mb-4">
+                  $1,650,000
+                </p>
+                <div class="flex gap-4 text-sm text-gray-500 mb-5">
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      /></svg
+                    >4 Beds</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="2" y="6" width="20" height="12" rx="2" />
+                      <circle cx="12" cy="12" r="2" /></svg
+                    >3 Baths</span
+                  >
+                  <span class="flex items-center gap-1"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" /></svg
+                    >2,400 sqft</span
+                  >
+                </div>
+                <a
+                  href="#listing-beaches"
+                  class="btn-outline-gold block text-center py-2.5 rounded text-sm"
+                  >View Full Details</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="mt-12 bg-white rounded-xl p-6 sm:p-8 text-center">
+            <p class="text-gray-600 mb-4">
+              Looking for something specific? I have access to off-market and
+              coming-soon listings across the waterfront.
+            </p>
+            <a
+              href="contact.html"
+              class="btn-navy inline-flex items-center gap-2 px-8 py-3.5 rounded text-base"
+              >Discuss Your Criteria
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: Listing Details -->
+      <section
+        id="listing-harbourfront"
+        class="py-16 sm:py-20 bg-white scroll-mt-24"
+      >
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="border-b border-gray-200 pb-4 mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+          >
+            <div>
+              <p
+                class="text-gold text-sm font-medium tracking-widest uppercase mb-1"
+              >
+                Featured Listing
+              </p>
+              <h2 class="text-3xl font-display font-bold text-navy">
+                3-Bed Waterfront Condo — $899,000
+              </h2>
+            </div>
+            <a
+              href="contact.html#booking"
+              class="btn-gold inline-flex items-center gap-2 px-6 py-3 rounded text-sm self-start sm:self-auto"
+              >Schedule a Private Viewing</a
+            >
+          </div>
+          <!-- Photo gallery -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+            <div class="md:col-span-2">
+              <img
+                src="open-concept-living.jpg"
+                alt="Spacious open-concept living room in the Harbourfront condo with floor-to-ceiling windows, panoramic Lake Ontario views, light hardwood floors, and designer furniture"
+                class="w-full h-72 md:h-96 object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div class="grid grid-rows-2 gap-4">
+              <img
+                src="modern-kitchen.jpg"
+                alt="Modern chef's kitchen with quartz waterfall island, integrated stainless appliances, and custom cabinetry"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+              <img
+                src="Primary-bedroom.jpg"
+                alt="Primary bedroom with king bed, soft neutral tones, and a private balcony overlooking the Toronto Islands"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-5 gap-10">
+            <!-- Description + features -->
+            <div class="lg:col-span-3">
+              <h3 class="text-2xl font-display font-bold text-navy mb-4">
+                About This Home
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                This bright corner residence on the 28th floor delivers exactly
+                what waterfront buyers dream of — unobstructed lake and Toronto
+                Island views through floor-to-ceiling glass. The open-concept
+                plan is anchored by a chef's kitchen with a quartz waterfall
+                island, while the split-bedroom layout offers genuine privacy
+                for families and guests alike.
+              </p>
+              <h3 class="text-xl font-display font-bold text-navy mb-4">
+                Key Features
+              </h3>
+              <ul
+                class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-600"
+              >
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Floor-to-ceiling windows, SW corner exposure
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Unobstructed lake & island views
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Quartz kitchen with integrated appliances
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Engineered hardwood throughout
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >24-hour concierge & fitness centre
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Steps to the waterfront trail & TTC
+                </li>
+              </ul>
+            </div>
+            <!-- Specs -->
+            <div class="lg:col-span-2">
+              <div class="bg-off-white rounded-xl p-6">
+                <h3 class="text-xl font-display font-bold text-navy mb-5">
+                  Property Details
+                </h3>
+                <dl class="space-y-3 text-sm">
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Address</dt>
+                    <dd class="text-navy font-medium text-right">
+                      88 Harbour St, Toronto
+                    </dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Price</dt>
+                    <dd class="text-navy font-bold">$899,000</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Type</dt>
+                    <dd class="text-navy font-medium">Condominium</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bedrooms</dt>
+                    <dd class="text-navy font-medium">3</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bathrooms</dt>
+                    <dd class="text-navy font-medium">2</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Interior Size</dt>
+                    <dd class="text-navy font-medium">1,250 sqft</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Year Built</dt>
+                    <dd class="text-navy font-medium">[DETAIL]</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Parking</dt>
+                    <dd class="text-navy font-medium">1 Underground</dd>
+                  </div>
+                  <div class="flex justify-between">
+                    <dt class="text-gray-500">Monthly Fees</dt>
+                    <dd class="text-navy font-medium">[DETAIL]</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: Listing Details 2 -->
+      <section
+        id="listing-liberty-village"
+        class="py-16 sm:py-20 bg-off-white scroll-mt-24"
+      >
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="border-b border-gray-200 pb-4 mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+          >
+            <div>
+              <p
+                class="text-gold text-sm font-medium tracking-widest uppercase mb-1"
+              >
+                Just Listed
+              </p>
+              <h2 class="text-3xl font-display font-bold text-navy">
+                2-Bed Modern Townhome — $749,000
+              </h2>
+            </div>
+            <a
+              href="contact.html#booking"
+              class="btn-gold inline-flex items-center gap-2 px-6 py-3 rounded text-sm self-start sm:self-auto"
+              >Schedule a Private Viewing</a
+            >
+          </div>
+          <!-- Photo gallery -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+            <div class="md:col-span-2">
+              <img
+                src="rooftop-terrace.jpg"
+                alt="Private rooftop terrace of the Liberty Village townhome with lounge seating, city views, and glass railing at sunset"
+                class="w-full h-72 md:h-96 object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div class="grid grid-rows-2 gap-4">
+              <img
+                src="kitchen-white.jpg"
+                alt="Contemporary kitchen with white shaker cabinets, brass hardware, and a breakfast nook overlooking the living space"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+              <img
+                src="townhome.jpg"
+                alt="Red-brick exterior of the three-storey townhome on a quiet Liberty Village street with landscaped front entry"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-5 gap-10">
+            <!-- Description + features -->
+            <div class="lg:col-span-3">
+              <h3 class="text-2xl font-display font-bold text-navy mb-4">
+                About This Home
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                Tucked into Liberty Village's creative streetscape, this
+                three-storey townhome blends industrial heritage with
+                contemporary polish. The rooftop terrace is the star — a genuine
+                outdoor room for entertaining above the city — while the main
+                level's open plan keeps the kitchen at the heart of everyday
+                life.
+              </p>
+              <h3 class="text-xl font-display font-bold text-navy mb-4">
+                Key Features
+              </h3>
+              <ul
+                class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-600"
+              >
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Private rooftop terrace with city views
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Quartz counters & brass fixtures
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Three-storey layout, oak staircase
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Ensuites on both upper bedrooms
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >In-suite laundry & extra storage
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Walk to TTC, cafés & Stanley Park
+                </li>
+              </ul>
+            </div>
+            <!-- Specs -->
+            <div class="lg:col-span-2">
+              <div class="bg-white rounded-xl p-6 shadow-sm">
+                <h3 class="text-xl font-display font-bold text-navy mb-5">
+                  Property Details
+                </h3>
+                <dl class="space-y-3 text-sm">
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Address</dt>
+                    <dd class="text-navy font-medium text-right">
+                      45 East Liberty St, Toronto
+                    </dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Price</dt>
+                    <dd class="text-navy font-bold">$749,000</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Type</dt>
+                    <dd class="text-navy font-medium">Townhome</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bedrooms</dt>
+                    <dd class="text-navy font-medium">2</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bathrooms</dt>
+                    <dd class="text-navy font-medium">2</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Interior Size</dt>
+                    <dd class="text-navy font-medium">1,050 sqft</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Year Built</dt>
+                    <dd class="text-navy font-medium">[DETAIL]</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Parking</dt>
+                    <dd class="text-navy font-medium">1 Private</dd>
+                  </div>
+                  <div class="flex justify-between">
+                    <dt class="text-gray-500">Monthly Fees</dt>
+                    <dd class="text-navy font-medium">[DETAIL]</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: Listing Details 3 -->
+      <section
+        id="listing-beaches"
+        class="py-16 sm:py-20 bg-white scroll-mt-24"
+      >
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="border-b border-gray-200 pb-4 mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+          >
+            <div>
+              <p
+                class="text-gold text-sm font-medium tracking-widest uppercase mb-1"
+              >
+                Exclusive
+              </p>
+              <h2 class="text-3xl font-display font-bold text-navy">
+                4-Bed Family Home — $1,650,000
+              </h2>
+            </div>
+            <a
+              href="contact.html#booking"
+              class="btn-gold inline-flex items-center gap-2 px-6 py-3 rounded text-sm self-start sm:self-auto"
+              >Schedule a Private Viewing</a
+            >
+          </div>
+          <!-- Photo gallery -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+            <div class="md:col-span-2">
+              <img
+                src="backyard.jpg"
+                alt="Landscaped backyard of the Beaches detached home with mature perennials, stone patio dining area, and wooden pergola"
+                class="w-full h-72 md:h-96 object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div class="grid grid-rows-2 gap-4">
+              <img
+                src="chef's-kitchen.jpg"
+                alt="Fully renovated chef's kitchen with marble island, brass pendants, and a view into the family room"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+              <img
+                src="porch.jpg"
+                alt="Front wraparound porch of the character home with white railing, potted plants, and a view of tree-lined Wineva Avenue"
+                class="w-full h-44 md:h-[11.5rem] object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-5 gap-10">
+            <!-- Description + features -->
+            <div class="lg:col-span-3">
+              <h3 class="text-2xl font-display font-bold text-navy mb-4">
+                About This Home
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                A rare offering in one of The Beaches' most loved pockets, this
+                fully renovated character home keeps its original charm —
+                wraparound porch, original trim, mature maples — while
+                delivering a modern interior built for family life. Four
+                generous bedrooms, a chef's kitchen, and a finished basement
+                give everyone room to breathe, and the boardwalk is a short
+                stroll away.
+              </p>
+              <h3 class="text-xl font-display font-bold text-navy mb-4">
+                Key Features
+              </h3>
+              <ul
+                class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-600"
+              >
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Wraparound porch with original details
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Chef's kitchen with marble island
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Finished basement with rec room
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Landscaped yard & stone patio
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Top-rated schools nearby
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C8A951"
+                    stroke-width="2"
+                    class="mt-0.5 flex-shrink-0"
+                  >
+                    <polyline points="20 6 9 17 4 12" /></svg
+                  >Minutes to boardwalk & Queen St shops
+                </li>
+              </ul>
+            </div>
+            <!-- Specs -->
+            <div class="lg:col-span-2">
+              <div class="bg-off-white rounded-xl p-6">
+                <h3 class="text-xl font-display font-bold text-navy mb-5">
+                  Property Details
+                </h3>
+                <dl class="space-y-3 text-sm">
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Address</dt>
+                    <dd class="text-navy font-medium text-right">
+                      212 Wineva Ave, Toronto
+                    </dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Price</dt>
+                    <dd class="text-navy font-bold">$1,650,000</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Type</dt>
+                    <dd class="text-navy font-medium">Detached</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bedrooms</dt>
+                    <dd class="text-navy font-medium">4</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Bathrooms</dt>
+                    <dd class="text-navy font-medium">3</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Interior Size</dt>
+                    <dd class="text-navy font-medium">2,400 sqft</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Year Built</dt>
+                    <dd class="text-navy font-medium">[DETAIL]</dd>
+                  </div>
+                  <div
+                    class="flex justify-between border-b border-gray-200 pb-2"
+                  >
+                    <dt class="text-gray-500">Parking</dt>
+                    <dd class="text-navy font-medium">2 Private</dd>
+                  </div>
+                  <div class="flex justify-between">
+                    <dt class="text-gray-500">Monthly Fees</dt>
+                    <dd class="text-navy font-medium">N/A (Freehold)</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: Disclaimer -->
+      <section class="py-8 bg-white border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p class="text-xs text-gray-400 leading-relaxed">
+            Listing information is provided for demonstration purposes only and
+            may not reflect currently available properties. Prices,
+            availability, and details are subject to change without notice. For
+            accurate, up-to-the-minute listings, please contact Sarah Mitchell
+            directly.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- SECTION: Footer -->
+    <footer class="bg-navy text-gray-300 pt-16 pb-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"
+        >
+          <div class="sm:col-span-2 lg:col-span-1">
+            <div class="flex items-center gap-3 mb-4">
+              <div
+                class="w-10 h-10 bg-gold rounded-full flex items-center justify-center text-navy font-display text-xl font-bold"
+              >
+                H
+              </div>
+              <div>
+                <p
+                  class="font-display text-white text-xl font-bold leading-6 m-0"
+                >
+                  Harbourview
+                </p>
+                <p class="text-xs text-gold tracking-widest uppercase m-0">
+                  Realty
+                </p>
+              </div>
+            </div>
+            <p class="text-sm text-gray-400 mb-6 leading-relaxed">
+              Your trusted guide to buying and selling in Toronto's waterfront
+              communities. Local expertise. Proven results.
+            </p>
+            <div class="flex gap-3">
+              <a
+                href="https://instagram.com/sarahmitchellrealty"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition-colors"
+                aria-label="Instagram"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="5" />
+                  <circle cx="17.5" cy="6.5" r="1.5" />
+                </svg>
+              </a>
+              <a
+                href="LINKEDIN_PLACEHOLDER"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition-colors"
+                aria-label="LinkedIn"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-display text-white text-lg font-bold mb-4">
+              Quick Links
+            </h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="index.html" class="hover:text-gold transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="hover:text-gold transition-colors"
+                  >About Sarah</a
+                >
+              </li>
+              <li>
+                <a
+                  href="listings.html"
+                  class="hover:text-gold transition-colors"
+                  >Featured Listings</a
+                >
+              </li>
+              <li>
+                <a href="reviews.html" class="hover:text-gold transition-colors"
+                  >Client Reviews</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="hover:text-gold transition-colors"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-display text-white text-lg font-bold mb-4">
+              Services
+            </h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="about.html" class="hover:text-gold transition-colors"
+                  >Home Buying</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="hover:text-gold transition-colors"
+                  >Home Selling</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html#booking"
+                  class="hover:text-gold transition-colors"
+                  >Free Market Valuation</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="hover:text-gold transition-colors"
+                  >Investment Properties</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-display text-white text-lg font-bold mb-4">
+              Get in Touch
+            </h4>
+            <ul class="space-y-3 text-sm">
+              <li class="flex items-start gap-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#C8A951"
+                  stroke-width="2"
+                  class="mt-0.5 flex-shrink-0"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>88 Harbour St<br />Toronto, ON</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#C8A951"
+                  stroke-width="2"
+                  class="flex-shrink-0"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+                <a
+                  href="tel:+14165550155"
+                  class="hover:text-gold transition-colors"
+                  >(416) 555-0155</a
+                >
+              </li>
+              <li class="flex items-center gap-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#C8A951"
+                  stroke-width="2"
+                  class="flex-shrink-0"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <a
+                  href="mailto:sarah@harbourviewrealty.ca"
+                  class="hover:text-gold transition-colors"
+                  >sarah@harbourviewrealty.ca</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500"
+        >
+          <p>&copy; 2026 Harbourview Realty. All rights reserved.</p>
+          <p>
+            Each office independently owned and operated. Not intended to
+            solicit buyers or sellers currently under contract.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script defer>
+      (function () {
+        var toggle = document.getElementById("menu-toggle");
+        var menu = document.getElementById("mobile-menu");
+        if (toggle && menu) {
+          toggle.addEventListener("click", function () {
+            var isOpen = menu.classList.toggle("open");
+            toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
