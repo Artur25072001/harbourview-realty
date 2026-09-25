@@ -1,4 +1,22 @@
 ================================================================================
+INTERNAL WORKING NOTES - NOT PART OF THE DEPLOYED SITE
+================================================================================
+
+This file lives in a dot-prefixed folder, which Netlify does not publish, so it
+is no longer reachable over HTTP. It previously sat in the site root and was
+publicly downloadable at /GOOGLE_BUSINESS_CHECKLIST.txt.
+
+IMPORTANT: Harbourview Realty is a FICTIONAL business. It has no Google Business
+Profile, no address, no phone number and no customers, so none of the steps below
+can actually be carried out. They are kept only as a checklist template to reuse
+for a real client.
+
+Do not collect, seed or fabricate reviews, ratings or Q&A entries for a business
+that does not exist: fabricated review markup breaches Google structured data
+policies and can trigger a manual action.
+
+================================================================================
+================================================================================
 MANUAL TASK: GOOGLE BUSINESS OPTIMIZATION — Harbourview Realty
 ================================================================================
 

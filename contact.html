@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Demo/preview site: a fictional business used as a portfolio sample by
+         Artur Dymchevskyi. It is not a real company. The "noindex" directive
+         below is what keeps these pages out of search results; see robots.txt. -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
     <meta
       name="description"
       content="Get in touch with Sarah Mitchell at Harbourview Realty. Contact form, free consultation booking, and office directions for Toronto waterfront real estate services."
@@ -17,12 +21,8 @@
     />
     <meta property="og:type" content="website" />
     <meta
-      property="og:url"
-      content="https://harbourviewrealty.ca/contact.html"
-    />
-    <meta
       property="og:image"
-      content="https://harbourviewrealty.ca/PLACEHOLDER-og-image.jpg"
+      content="hero.jpg"
     />
     <meta property="og:locale" content="en_CA" />
     <meta property="og:site_name" content="Harbourview Realty" />
@@ -60,19 +60,7 @@
         },
       };
     </script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-XXXXXXXXXX");
-    </script>
-    <style>
+            <style>
       html {
         scroll-behavior: smooth;
       }
@@ -157,6 +145,7 @@
     </style>
   </head>
   <body class="font-body text-charcoal bg-off-white">
+<!-- Demo notice: this is a fictional business built as a portfolio sample. See robots.txt and the noindex meta tag in <head>. --><div role="note" style="background:#1b1b19;color:#f4efe7;font:400 0.8rem/1.55 system-ui,-apple-system,sans-serif;text-align:center;padding:0.65rem 1rem;"><strong style="font-weight:600;">Demo website.</strong> A fictional business built as a portfolio sample by Artur Dymchevskyi. The company, its team, its photos, prices, contact details, reviews and testimonials are all invented, and this page is deliberately kept out of search results. <a href="https://github.com/Artur25072001" target="_blank" rel="noopener" style="color:#f4efe7;text-decoration:underline;">See the author portfolio and code</a></div>
     <!-- SECTION: Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -559,7 +548,7 @@
               <p class="text-gray-300 text-sm">(416) 555-0155</p>
             </a>
             <a
-              href="mailto:sarah@harbourviewrealty.ca"
+              href="mailto:sarah@example.com"
               class="bg-white/10 rounded-xl p-6 hover:bg-white/20 transition-colors"
             >
               <svg
@@ -575,7 +564,7 @@
                 <polyline points="22,6 12,13 2,6" />
               </svg>
               <p class="text-white font-semibold mb-1">Email</p>
-              <p class="text-gray-300 text-sm">sarah@harbourviewrealty.ca</p>
+              <p class="text-gray-300 text-sm">sarah@example.com</p>
             </a>
             <div class="bg-white/10 rounded-xl p-6">
               <svg
@@ -616,7 +605,7 @@
               </svg>
             </a>
             <a
-              href="LINKEDIN_PLACEHOLDER"
+              href="https://www.linkedin.com/in/artur-dymchevskyi-208962333/"
               target="_blank"
               rel="noopener noreferrer"
               class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-navy hover:bg-gold-dark transition-colors"
@@ -691,7 +680,7 @@
                 </svg>
               </a>
               <a
-                href="LINKEDIN_PLACEHOLDER"
+                href="https://www.linkedin.com/in/artur-dymchevskyi-208962333/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold transition-colors"
@@ -833,9 +822,9 @@
                   <polyline points="22,6 12,13 2,6" />
                 </svg>
                 <a
-                  href="mailto:sarah@harbourviewrealty.ca"
+                  href="mailto:sarah@example.com"
                   class="hover:text-gold transition-colors"
-                  >sarah@harbourviewrealty.ca</a
+                  >sarah@example.com</a
                 >
               </li>
             </ul>
